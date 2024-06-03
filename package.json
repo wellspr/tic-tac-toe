@@ -1,0 +1,15 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./sass/main.scss ./src/index.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.77.2"
+  }
+}

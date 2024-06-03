@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+}
+
+//.wrapper {}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.top {
+    min-height: 3rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+//.footer {}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: 1rem;
+
+    background-color: black;
+
+    height: 80vh;
+    width: 80vh;
+}
+
+.cell {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15vh;
+}
